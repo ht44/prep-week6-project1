@@ -81,13 +81,98 @@ SANDBOX:
 Based on the code that is used to hide all images when clicked, consider testing the following options to test the interaction.
 
 Interactive Methods: dblclick(), hover(), mousedown(), mouseenter(), mouseleave(), mousemove(), mouseout(), mouseover(), and mouseup().
+*/
 
+/*
+$("img").dblclick(function () {
+  $("img").hide();
+});
+*/
 
+/*
+$("img").hover(function () {
+  $("img").hide();
+});
+*/
+
+/*
+$("img").mousedown(function () {
+  $("img").hide();
+});
+*/
+
+/*
+$("img").mouseenter(function () {
+  $("img").hide();
+});
+*/
+
+/*
+$("img").mouseleave(function () {
+  $("img").hide();
+});
+*/
+
+/*
+$("img").mousemove(function () {
+  $("img").hide();
+});
+*/
+
+/*
+$("img").mouseout(function () {
+  $("img").hide();
+});
+*/
+
+/*
+$("img").mouseover(function () {
+  $("img").hide();
+});
+*/
+
+/*
+$("img").mouseup(function () {
+  $("img").hide();
+});
+*/
+
+/*
 Update previous hide functions with speed.
 
 How does the speed affect the animated techniques as they are applied to different HTML elements?
-
 */
+
+/*
+$("p").click(function() {
+  $("p").hide(1000);
+});
+*/
+
+/*
+$("h2").click(function() {
+  $("h2").hide(1000);
+});
+*/
+
+/*
+$("img").click(function() {
+  $("img").hide(1000);
+});
+*/
+
+/*
+$("body").click(function() {
+  $("a").hide(1000);
+});
+*/
+
+/*
+$("body").click(function() {
+  $("body").hide(1000);
+});
+*/
+
 
 // Closing ready
 });
